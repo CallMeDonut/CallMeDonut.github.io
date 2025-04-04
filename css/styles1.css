@@ -175,7 +175,7 @@ td, th {
   font-style: normal; */
 }
 
-/* [class^="w-icon-"], [class*=" w-icon-"] {
+[class^="w-icon-"], [class*=" w-icon-"] {
   speak: none;
   font-variant: normal;
   text-transform: none;
@@ -184,7 +184,7 @@ td, th {
   font-style: normal;
   font-weight: normal;
   line-height: 1;
-  font-family: webflow-icons !important; */
+  font-family: webflow-icons !important;
 }
 
 .w-icon-slider-right:before {
@@ -294,7 +294,7 @@ pre.w-code-block code {
   display: contents;
 }
 
-.w-webflow-badge, .w-webflow-badge > img {
+/*.w-webflow-badge, .w-webflow-badge > img {
   box-sizing: unset;
   width: unset;
   height: unset;
@@ -341,7 +341,7 @@ pre.w-code-block code {
   word-break: unset;
   word-spacing: unset;
   word-wrap: unset;
-  transition: unset;
+  transition: unset; */
 }
 
 .w-webflow-badge {
