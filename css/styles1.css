@@ -294,7 +294,7 @@ pre.w-code-block code {
   display: contents;
 }
 
-.w-webflow-badge, .w-webflow-badge > img {
+/*.w-webflow-badge, .w-webflow-badge > img {
   box-sizing: unset;
   width: unset;
   height: unset;
