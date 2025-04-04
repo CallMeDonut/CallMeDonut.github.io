@@ -8759,4 +8759,6 @@ a:hover {
   #w-node-_460905b8-1a01-a869-cf48-b96d3cad94ca-03314d7c {
     grid-column-end: 7;
   }
+.w-webflow-badge {
+    display: none !important;
 }
