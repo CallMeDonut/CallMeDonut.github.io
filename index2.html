@@ -275,17 +275,25 @@
             </div>
          </div>
       </header>
+      <!-- CONTACT FORM -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
       <section class="section secondary-section">
-         <h1 class="heading">Contact Me</h1>
-         <div class="w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form" data-wf-page-id="67f7ea9d4226f7a2ed2f8ede" data-wf-element-id="6541dfcc-97a7-d8fa-9932-c6b96c34cc35" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"><input class="text-field-2 w-input" maxlength="256" name="name" data-name="Name" placeholder="Full Name" type="text" id="name" required=""><input class="text-field w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="Phone Number" type="text" id="Phone-Number"><input class="text1 w-input" maxlength="256" name="email" data-name="Email" placeholder="Email" type="email" id="email" required=""><input class="text1 w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Email Subject" type="email" id="Email-Subject" required=""><input class="text-field-3 w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Your Message" type="email" id="Email-Message"><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit"></form>
-            <div class="w-form-done">
-               <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="w-form-fail">
-               <div>Oops! Something went wrong while submitting the form.</div>
-            </div>
-         </div>
+        <h1 class="heading">Contact Me</h1>
+        <div class="w-form">
+          <form action="https://formspree.io/f/mayzpdbd" method="POST" class="form">
+            <input class="text-field-2 w-input" maxlength="256" name="name" placeholder="Full Name" type="text" id="name" required>
+            <input class="text-field w-input" maxlength="256" name="phone" placeholder="Phone Number" type="text" id="Phone-Number">
+            <input class="text1 w-input" maxlength="256" name="email" placeholder="Email" type="email" id="email" required>
+            <input class="text1 w-input" maxlength="256" name="subject" placeholder="Email Subject" type="text" id="Email-Subject" required>
+            <textarea class="text-field-3 w-input" name="message" placeholder="Your Message" id="Email-Message" rows="6" required></textarea>
+            <input type="submit" class="submit-button w-button" value="Submit">
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
       </section>
       <footer class="footer">
          <div class="container">
